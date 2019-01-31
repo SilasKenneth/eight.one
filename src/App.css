@@ -1,0 +1,21 @@
+*{
+	margin:0;
+}
+
+img{
+	width:100%!important;
+	height: auto!important;
+}
+
+#good{
+	width:80%;
+	margin:2% auto;
+}
+
+.form{
+	margin:10% auto;
+}
+
+#former{
+	padding: 20px!important;
+}
