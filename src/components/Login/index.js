@@ -4,11 +4,13 @@ import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
+import Zoom from '@material-ui/core/Zoom'
 class Login extends Component{
 	render(){
 		return <div className="form">
+		<Zoom in>
 		<Grid className="form" xs={3}>
-		<Typography variant="h4" color="textPrimary" align="center">
+		<Typography variant="h4" color="primary" align="center" italic>
 		  Sign in
 		</Typography>
 		  <TextField fullWidth
@@ -29,8 +31,9 @@ class Login extends Component{
           margin="normal"
           variant="outlined"
         /><br/><br/>
-        <Button color="secondary" variant="outlined" fullWidth={true} size="large">Get me in</Button>
+        <Button color="secondary" variant="raised" fullWidth={true} size="large">Get me in</Button>
         </Grid>
+        </Zoom>
 		</div>;
 	}
 }

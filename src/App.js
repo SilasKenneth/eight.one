@@ -8,7 +8,8 @@ import Login from './components/Login';
 import NavBar from './components/NavBar';
 import './App.css';
 
-const App = () => {
+const App = (props) => {
+    const {computedMatch} = props;
     return (
         <HashRouter>
             <div>
